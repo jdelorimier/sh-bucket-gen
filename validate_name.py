@@ -1,7 +1,5 @@
 import re
 
-name = 'c4ads-sh-china-trade-data'
-
 def assert_no_spaces(name):
     test = re.findall(r' ',name)
     return len(test) == 0
